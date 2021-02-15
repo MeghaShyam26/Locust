@@ -20,14 +20,21 @@ TO RUN A LOAD TEST
 
 3) Links for other important aspects:
     Quick start: https://docs.locust.io/en/stable/quickstart.html
+    
     Running without UI: https://docs.locust.io/en/stable/running-locust-without-web-ui.html
+    
     HttpUser class: https://docs.locust.io/en/stable/api.html#httpuser-class
+    
     Taskset class: https://docs.locust.io/en/stable/api.html#taskset-class
+    
     Sequentialtaskset class: https://docs.locust.io/en/stable/api.html#sequentialtaskset-class
+    
     Waittime functions: https://docs.locust.io/en/stable/api.html#module-locust.wait_time
+    
     Master-Worker: https://docs.locust.io/en/stable/running-locust-distributed.html
 
 4) For quick execution:
+    
     git clone https://github.com/MeghaShyam26/Locust.git --branch locust-post
     
     cd Locust
