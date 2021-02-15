@@ -1,6 +1,7 @@
 TO RUN A LOAD TEST
 1) Install locust:
    pip install locust
+   
    Ref: https://docs.locust.io/en/stable/installation.html
 
 
@@ -28,5 +29,7 @@ TO RUN A LOAD TEST
 
 4) For quick execution:
     git clone https://github.com/MeghaShyam26/Locust.git --branch locust-get
+    
     cd Locust
+    
     locust -f locust_get.py 
