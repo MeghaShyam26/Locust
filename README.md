@@ -6,16 +6,22 @@ TO RUN A LOAD TEST
 
 
 2) Either navigate to the directory where the locust script is present
+   
    If only a  single file is present type
     locust
+   
    If mutliple files are present then
     locust -f filename.py
+   
    To launch with a different port add the following command line argument:
     --web-port portNumber
+   
    To launch with a master-worker approach add the following command line argument:
     --master for one file and --worker for the number of workers required
+   
    To find all the arguments type:
     locust --help
+   
    Ref: https://docs.locust.io/en/stable/configuration.html
 
 3) Links for other important aspects:
